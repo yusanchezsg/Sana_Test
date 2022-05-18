@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebShopSana.BL", "WebShopSana.BL\WebShopSana.BL.csproj", "{61E70718-480B-44E4-9920-A66EFE633514}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebShopSana.BL", "WebShopSana.BL\WebShopSana.BL.csproj", "{61E70718-480B-44E4-9920-A66EFE633514}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebShopSana.DAL", "WebShopSana.DAL\WebShopSana.DAL.csproj", "{9157D19C-00BB-4986-94CB-FD7CFA5C2C21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebShopSana.DAL", "WebShopSana.DAL\WebShopSana.DAL.csproj", "{9157D19C-00BB-4986-94CB-FD7CFA5C2C21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebShopSana.MODELS", "WebShopSana.MODELS\WebShopSana.MODELS.csproj", "{35EB4F45-AF0B-43C3-831A-21B0B71D831D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebShopSana.MODELS", "WebShopSana.MODELS\WebShopSana.MODELS.csproj", "{35EB4F45-AF0B-43C3-831A-21B0B71D831D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebShopSana.App", "WebShopSana.App\WebShopSana.App.csproj", "{960B3502-4A1A-4E79-B364-33D8B21E514F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{35EB4F45-AF0B-43C3-831A-21B0B71D831D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35EB4F45-AF0B-43C3-831A-21B0B71D831D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35EB4F45-AF0B-43C3-831A-21B0B71D831D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{960B3502-4A1A-4E79-B364-33D8B21E514F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{960B3502-4A1A-4E79-B364-33D8B21E514F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{960B3502-4A1A-4E79-B364-33D8B21E514F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{960B3502-4A1A-4E79-B364-33D8B21E514F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

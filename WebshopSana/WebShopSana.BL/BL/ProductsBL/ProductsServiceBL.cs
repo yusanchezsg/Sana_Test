@@ -6,7 +6,7 @@ namespace WebShopSana.BL.ProductsBL
 {
     public class ProductsServiceBL : GenericServiceBL<Products>, IProductsServiceBL
     {
-        protected ProductsServiceBL(IUnitOfWork<Products> unitOfWork) : base(unitOfWork)
+        public ProductsServiceBL(IUnitOfWork<Products> unitOfWork) : base(unitOfWork)
         {
         }
     }

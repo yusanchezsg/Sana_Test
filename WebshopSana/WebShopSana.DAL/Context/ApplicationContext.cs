@@ -10,5 +10,10 @@ namespace WebShopSana.DAL.Context
             Database.EnsureCreated();
         }
         public DbSet<Products> Products { get; set; }
+        public DbSet<Categories> Categories { get; set; }
+        public DbSet<OrderDetails> OrderDetails { get; set; }
+        public DbSet<Customers> Customers { get; set; }
+        public DbSet<ProductCategories> ProductCategories { get; set; }
+        public DbSet<Orders> Orders { get; set; }
     }
 }
