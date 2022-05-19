@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace WebShopSana.MODELS.Models
+namespace WebShopSana.MODELS.Entities
 {
     [Table("PRODUCTS")]
     public class Products
@@ -18,5 +18,7 @@ namespace WebShopSana.MODELS.Models
 
         [Column("PRICE", Order = 3)]
         public float ProductPrice { get; set; }
+
+
     }
 }

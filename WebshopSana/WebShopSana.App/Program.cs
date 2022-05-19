@@ -3,8 +3,9 @@ using WebShopSana.BL.ProductsBL;
 using WebShopSana.DAL.Context;
 using WebShopSana.DAL.Generic;
 using WebShopSana.DAL.Interfaces;
-using WebShopSana.DAL.ProductsDAL;
-using WebShopSana.MODELS.Models;
+using WebShopSana.DAL.ProductDAL;
+using WebShopSana.MODELS.Entities;
+
 
 
 var builder = WebApplication.CreateBuilder(args);

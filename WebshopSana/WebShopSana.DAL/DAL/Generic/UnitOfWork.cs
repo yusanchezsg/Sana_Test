@@ -1,5 +1,6 @@
 ﻿using WebShopSana.DAL.Context;
 using WebShopSana.DAL.Interfaces;
+using WebShopSana.DAL.ProductDAL;
 
 namespace WebShopSana.DAL.Generic
 {
@@ -8,6 +9,8 @@ namespace WebShopSana.DAL.Generic
         public ApplicationContext context { get; }
 
         private GenericRepositoryDAL<T> repository;
+        private ProductsDAL productRepository;
+
 
         public UnitOfWork(ApplicationContext _context)
         {
@@ -23,6 +26,18 @@ namespace WebShopSana.DAL.Generic
                     this.repository = new GenericRepositoryDAL<T>(context);
                 }
                 return this.repository;
+            }
+        }
+
+        public ProductsDAL ProductsDal
+        {
+            get
+            {
+                if (this.productRepository == null)
+                {
+                    this.productRepository = new ProductsDAL(context);
+                }
+                return this.productRepository;
             }
         }
 

@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using WebShopSana.BL.ProductsBL;
-using WebShopSana.MODELS.Models;
+using WebShopSana.MODELS.Entities;
 
 namespace WebShopSana.App.Controllers
 {
@@ -18,7 +18,7 @@ namespace WebShopSana.App.Controllers
         // GET: ProductController
         public ActionResult Index()
         {
-
+            int restult = _productsServiceBL.Test();
             return View(_productsServiceBL.Get());
         }
 

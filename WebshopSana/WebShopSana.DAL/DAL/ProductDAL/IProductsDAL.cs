@@ -1,9 +1,10 @@
 ﻿using WebShopSana.DAL.Interfaces;
-using WebShopSana.MODELS.Models;
+using WebShopSana.MODELS.Entities;
 
-namespace WebShopSana.DAL.ProductsDAL
+namespace WebShopSana.DAL.ProductDAL
 {
     public interface IProductsDAL : IGenericRepositoryDAL<Products>
     {
+        int Test();
     }
 }

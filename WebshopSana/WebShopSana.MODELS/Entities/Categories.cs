@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace WebShopSana.MODELS.Models
+namespace WebShopSana.MODELS.Entities
 {
     [Table("CATEGORIES")]
     public class Categories

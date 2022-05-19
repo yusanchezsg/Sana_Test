@@ -42,5 +42,6 @@ namespace WebShopSana.DAL.Generic
             _applicationContext.Entry(entity).State = EntityState.Modified;
             _applicationContext.Set<TEntity>().Attach(entity);
         }
+
     }
 }

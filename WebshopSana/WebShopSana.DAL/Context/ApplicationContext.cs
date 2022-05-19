@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using WebShopSana.MODELS.Models;
+using WebShopSana.MODELS.Entities;
 
 namespace WebShopSana.DAL.Context
 {
